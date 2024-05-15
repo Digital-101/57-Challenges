@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B755A520-F167-4120-87FE-EB9AEF552C19}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_57</RootNamespace>
+    <AssemblyName>57</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calculations\AreaTriangle.cs" />
+    <Compile Include="Calculations\CompoundInterest.cs" />
+    <Compile Include="Calculations\CurrencyConversion.cs" />
+    <Compile Include="Calculations\PaintCalculator.cs" />
+    <Compile Include="Calculations\PizzaParty.cs" />
+    <Compile Include="Calculations\SelfCheckout.cs" />
+    <Compile Include="Calculations\SimpleInterest.cs" />
+    <Compile Include="DataStructures\ComputingStatistics.cs" />
+    <Compile Include="DataStructures\EmployeeListRemoval.cs" />
+    <Compile Include="DataStructures\FilteringRecords.cs" />
+    <Compile Include="DataStructures\FilteringValues.cs" />
+    <Compile Include="DataStructures\magic8Ball.cs" />
+    <Compile Include="DataStructures\PasswordGenerator.cs" />
+    <Compile Include="DataStructures\PickingAWinner.cs" />
+    <Compile Include="DataStructures\SortingRecords.cs" />
+    <Compile Include="Functions\AnagramChecker.cs" />
+    <Compile Include="Functions\MonthsToPayOFCC.cs" />
+    <Compile Include="Functions\PasswordStrengthIndicator.cs" />
+    <Compile Include="Functions\ValidatingInputs.cs" />
+    <Compile Include="MakingDecisions\BloodAlcoholDetector.cs" />
+    <Compile Include="MakingDecisions\BMICalculator.cs" />
+    <Compile Include="MakingDecisions\ComparingNumbers.cs" />
+    <Compile Include="MakingDecisions\LegalDrivingAge.cs" />
+    <Compile Include="MakingDecisions\MultiStateTax.cs" />
+    <Compile Include="MakingDecisions\NumbersToNames.cs" />
+    <Compile Include="MakingDecisions\PasswordValidation.cs" />
+    <Compile Include="MakingDecisions\TaxCalculator.cs" />
+    <Compile Include="MakingDecisions\TemperatureConverter.cs" />
+    <Compile Include="MakingDecisions\TroubleshootCarIssues.cs" />
+    <Compile Include="ProblemCode_IO\CountingCharacters.cs" />
+    <Compile Include="ProblemCode_IO\Hello.cs" />
+    <Compile Include="ProblemCode_IO\MadLib.cs" />
+    <Compile Include="ProblemCode_IO\PrintQuotes.cs" />
+    <Compile Include="ProblemCode_IO\RetirementCalculator.cs" />
+    <Compile Include="ProblemCode_IO\SimpleMath.cs" />
+    <Compile Include="ProblemCode_IO\#TipCalculator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repetition\AddingNumbers.cs" />
+    <Compile Include="Repetition\GuessTheNumber.cs" />
+    <Compile Include="Repetition\HandlingBadInput.cs" />
+    <Compile Include="Repetition\KarvHeartRate.cs" />
+    <Compile Include="Repetition\MultiplicationTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FullPrograms\" />
+    <Folder Include="WorkingWithFiles\" />
+    <Folder Include="WorkWithExternalPrograms\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
