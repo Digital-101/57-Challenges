@@ -1,4 +1,0 @@
-{
-    "fu": "https://goalsapp-13122.firebaseio.com/",
-    "ak": "AIzaSyD6f1wWlJP64AjzqAmxIN2FUVRyOBZAtng"
-}
