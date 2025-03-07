@@ -1,0 +1,4 @@
+{
+    "firebaseUrl": "https://goalsapp-13122.firebaseio.com/",
+    "apiKey": "AIzaSyD6f1wWlJP64AjzqAmxIN2FUVRyOBZAtng"
+}
