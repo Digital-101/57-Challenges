@@ -1,0 +1,19 @@
+﻿{
+    "questions": [
+        {
+            "question": "What is the capital of France?",
+            "correct": "Paris",
+            "options": [ "Paris", "London", "Berlin", "Madrid" ]
+        },
+        {
+            "question": "Who wrote 'Hamlet'?",
+            "correct": "William Shakespeare",
+            "options": [ "Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain" ]
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "correct": "Jupiter",
+            "options": [ "Mars", "Earth", "Jupiter", "Saturn" ]
+        }
+    ]
+}
